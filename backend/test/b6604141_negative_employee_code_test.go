@@ -1,8 +1,8 @@
 package test
 
 import (
-	"project/validator"
 	"project/entity"
+	"project/validator"
 	"testing"
 
 	. "github.com/onsi/gomega"
@@ -11,9 +11,9 @@ import (
 func testemployeecode(t *testing.T) {
 	g := NewGomegaWithT(t)
 
-	e := entity.Employees {
-		Name: "tawan",
-		Salary: 20000,
+	e := entity.Employees{
+		Name:         "tawan",
+		Salary:       20000,
 		EmployeeCode: "tv-5741",
 	}
 
