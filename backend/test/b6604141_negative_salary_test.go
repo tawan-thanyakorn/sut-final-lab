@@ -20,6 +20,6 @@ func testsalary(t *testing.T) {
 	err := validator.ValidateStruct(&e)
 
 	g.Expect(err).To(BeNil())
-	g.Expect(err.Error()).To(Equal("must be 15000-200000"))
+	g.Expect(err.Error()).To(Equal("Salary must be between 15000 and 200000"))
 
 }
